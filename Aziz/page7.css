@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #722910;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hamburger{
+    float: right;
+    margin: 40px 40px 0 0;
+}
+.hamburger > span{
+    display: block;
+    width: 45px;
+    height: 3px;
+    border-radius: 9999px;
+    background-color: #fff;
+}
+.hamburger > span:not(:last-child) {
+    margin-bottom: 9px;
+}
+.hamburger, .hamburger > span {
+    transition: all .4s ease-in-out;
+}
+.hamburger.active {
+    transition-delay: 0.8s;
+    transform: rotate(45deg);
+}
+.hamburger.active > span:nth-child(2) {
+    width: 0;
+}
+.hamburger.active > span:nth-child(1),
+.hamburger.active > span:nth-child(3) {
+    transition-delay: .4s;
+}
+.hamburger.active > span:nth-child(1) {
+    transform: translateY(15px);
+}
+.hamburger.active > span:nth-child(3) {
+    transform: translateY(-9px) rotate(90deg);
+}
+.turkish-coffee{
+    width: 330px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 4%;
+    margin: 100px 0 0 150px;
+    box-shadow: 5px 10px 40px #101010;
+}
+.image{
+    float: left;
+}
+.about{
+    float: right;
+    width: 50%;
+    margin-top: 95px;
+}
+.line{
+    height: 3px;
+    background-color: #ffd09e;
+    width: 400px;
+    display: block;
+    border-radius: 9999px;
+}
+.coffee-name{
+    color: #ffd09e;
+    font-size: 60px;
+    margin-top: 50px;
+}
+.text{
+    width: 230px;
+    margin-top: 30px;
+    color: #ffd09e;
+    font-weight: 600; font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+.value {
+    margin-top: 70px;
+    display: inline-block;
+}
+button {
+    width: 43px;
+    height: 25px;
+    font-size: 20px;
+    background-color: #722910;
+    color: #ffd09e;
+    border: 1px solid #ffd09e;
+    border-radius: 5px;
+}
+.first {
+    height: 25px;
+    width: 75px;
+    background-color: #ffd09e;
+    border: none;
+    border-radius: 5px;
+    margin: 0 8px;
+}
+.second {
+    height: 40px;
+    width: 100px;
+    display: block;
+    background-color: #ffd09e;
+    border-radius: 5px;
+    border: none;
+    margin: 32px 0 0 43px;
+}
+.add {
+    float: right;
+}
+label {
+    display: block;
+    color: #ffd09e;
+    font-size: 25px;
+    font-weight: 600;
+}
+.promo-code {
+    display: block;
+    height: 38px;
+    width: 220px;
+    background-color: #ffd09e;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.add-btn {
+    display: block;
+    background-color: #ffd09e;
+    color: #722910;
+    width: 110px;
+    height: 40px;
+    margin-top: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+.add-to-card {
+    background-color: #ffd09e;
+    color: #722910;
+    height: 40px;
+    width: 160px;
+    margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
