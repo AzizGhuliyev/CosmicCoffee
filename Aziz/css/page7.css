@@ -128,24 +128,31 @@ button {
     color: #ffd09e;
     border: 1px solid #ffd09e;
     border-radius: 5px;
+    cursor: pointer;
 }
 .first {
-    height: 25px;
-    width: 75px;
+    display: inline-block;
+    /* height: 30px; */
+    text-align: center;
+    font-size:25px;
+    width: 50px;
     background-color: #ffd09e;
-    border: none;
+    /* border: none; */
     border-radius: 5px;
     margin: 0 8px;
 }
-.second {
+/* .second {
+    display: inline-block; 
     height: 40px;
+    text-align: center;
+    font-size:25px;
     width: 100px;
     display: block;
     background-color: #ffd09e;
     border-radius: 5px;
     border: none;
     margin: 30px 0 0 43px;
-}
+} */
 .add {
     display: inline-block;
     margin-left:150px;
@@ -185,4 +192,15 @@ label {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 23px;
     font-weight: bold;
+}
+.a{
+    display: flex;
+    text-align: center;
+    font-size:25px;
+    width: 100px;
+    display: block;
+    background-color: #ffd09e;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0 0 43px;
 }

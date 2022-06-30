@@ -26,5 +26,5 @@ function change(lang_on, lang_off) {
         change_text.classList.add("azerbaijan");
         change_text.classList.remove("english");
         change_text.innerHTML = "";
-      }
+    }
 }
