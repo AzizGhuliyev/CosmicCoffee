@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Cafe</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <!-- Hamburger Menu -->
+    
+    <nav class="navbar">
+        <div class="hamburger">
+            <span class="span span-1"></span>
+            <span class="span span-2"></span>
+            <span class="span span-3"></span>
+        </div>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+ 
+ <!-- Main Part -->
+    <div class="container">         
+    <!-- Left side of the page -->
+        <div class="left">
+
+    <!-- photo of coffe -->         
+            <div class="photoone">
+                    <img src="./photo/turkish.jpg" alt="coffe">
+            </div> 
+
+     <!-- Information about coffee -->
+         <div class="textone">
+             <h4 class="name" id="nameone">Turkish Coffee</h4><br><br>
+             <p class="paragraphone">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, nam laborum. Velit  vitae corporis est dolore.</p><br><br>
+             <button class="button one">order</button>
+         </div>    
+        </div>
+
+    <!-- Right  side of the page -->
+        <div class="right">  
+         <!-- photo of coffe -->
+            <div class="phototwo">
+                     <img src="./photo/Americano.webp" alt="americanocofe">
+            </div>   
+        <!-- Information about coffee -->
+            <div class="texttwo">      
+                     <h4 class="name" id="nametwo">Americano</h4><br><br>
+                     <p class="paragraphtwo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, nam laborum. Velit  vitae corporis est dolore.</p><br><br>
+                     <button class="button two">order</button> 
+            </div> 
+        </div> 
+
+    </div>
+
+<script>
+  
+    const menuIcon = document.querySelector(".hamburger");
+    const navbar = document.querySelector(".navbar");  
+
+menuIcon.addEventListener("click", () => {
+    navbar.classList.toggle("change");
+    
+});
+</script>
+   
+
+</body>
+</html>
