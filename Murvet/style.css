@@ -94,7 +94,7 @@ body{
 .left{
     width: 540px;
     height: 290px;       
-    margin: 90px 0 0 50px;
+    margin: 150px 0 0 20px;
     display:inline-block;
     
     
@@ -139,7 +139,7 @@ body{
 /* Right Panel */
 
 .right{
-    margin: 250px 10px;
+    margin: 250px 20px 0 0;
     float: right;   
     width: 540px;
     height: 290px;      
@@ -162,5 +162,3 @@ body{
     float: left;
     font-weight:bold;    
 }
-
-
