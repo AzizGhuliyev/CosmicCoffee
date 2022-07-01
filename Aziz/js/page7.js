@@ -16,15 +16,13 @@ plus.addEventListener("click", ()=>{
     totalPrice.innerText = price;
 
 });
-var b = totalPrice.innerHTML
+// var b = totalPrice.innerHTML
 
 minus.addEventListener("click", ()=>{ 
     if(priceCount>1){
         priceCount--;
         count.innerHTML = priceCount;
-        const totalPrice = document.querySelector("#totalPrice");
-        totalPrice.innerHTML = totalPrice.innerHTML- 8
-        
+        totalPrice.innerHTML = totalPrice.innerHTML - 8;
     }
 });
 
