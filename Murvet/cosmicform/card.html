@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Cafe UserForm</title>
+    <link rel="stylesheet" href="./card.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <!-- Hamburger Menu -->
+    <nav class="navbar">
+        <div class="hamburger">
+            <span class="span span-1"></span>
+            <span class="span span-2"></span>
+            <span class="span span-3"></span>
+        </div>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- User Form -->
+
+    <main>
+        <div class="left">
+            <form action="" class="form-horizontal">
+                
+                <label for="fname">First Name</label>
+                <input type="text" id="fname">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" >
+
+                <label for="aname">Area</label>
+                <input type="text" id="aname" >
+
+                <label for="sname">Street Address</label>
+                <input type="text" id="sname" >
+
+            </form>
+        </div>
+
+        <div class="right">
+            <h4 class="cardinfo">Enter Card Details</h4>
+            <form action="" class="form-horizontal-right">
+                <label for="cardname">Card Number</label>
+                <input type="text" id="card">
+
+                <label for="cardnumber">Card Number Name</label>
+                <input type="text" id="cardname" >
+
+                
+                <div class="div-label">
+                    <label for="" class="label">Expiry Date</label>
+                    <label for="" class="label mr">CVV</label>
+                </div>
+                
+                <div class="expiry-date">
+                    <input type="text" class="month">
+                    <input type="text" class="year">
+                    <input type="text" class="cvv">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script>
+  const menuIcon = document.querySelector(".hamburger");
+const navbar = document.querySelector(".navbar");  
+
+menuIcon.addEventListener("click", () => {
+    navbar.classList.toggle("change");
+    
+});
+    </script>
+</body>
+</html>
