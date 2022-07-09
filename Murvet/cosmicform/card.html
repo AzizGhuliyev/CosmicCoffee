@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  
 </head>
 <body>
     <!-- Hamburger Menu -->
@@ -38,32 +38,36 @@
 
     <main>
         <div class="left">
-            <form action="" class="form-horizontal">
+            <form action=""  class="form-horizontal" id="formone" method="post">
                 
                 <label for="fname">First Name</label>
-                <input type="text" id="fname">
+                <input type="text" name="firstname"  id="fname" value="" required >
+                <div class="error" id="nerror"></div>
 
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" >
+                <label for="lname">Last Name</label>                
+                <input type="text" name="lastname" id="lname" value="" required >
+                <div class="error" id="lerror"></div>
 
                 <label for="aname">Area</label>
-                <input type="text" id="aname" >
+                <input type="text" name="area" id="aname" value="" required >
+                <div class="error" id="aerror"></div>
 
                 <label for="sname">Street Address</label>
-                <input type="text" id="sname" >
-
+                <input type="text" name="street" id="sname" value="" required >
+                <div class="error" id="serror"></div>
             </form>
+            
         </div>
 
         <div class="right">
             <h4 class="cardinfo">Enter Card Details</h4>
-            <form action="" class="form-horizontal-right">
+            <form action="" class="form-horizontal-right" id="formtwo">
                 <label for="cardname">Card Number</label>
-                <input type="text" id="card">
-
+                <input type="text" id="card" value="" >
+              
                 <label for="cardnumber">Card Number Name</label>
-                <input type="text" id="cardname" >
-
+                <input type="text" id="cardname" value="" >
+               
                 
                 <div class="div-label">
                     <label for="" class="label">Expiry Date</label>
@@ -71,22 +75,23 @@
                 </div>
                 
                 <div class="expiry-date">
-                    <input type="text" class="month">
-                    <input type="text" class="year">
-                    <input type="text" class="cvv">
+                    <input type="text" class="month" id="month" value="" >
+                    <input type="text" class="year" id="year" value="">
+                    <input type="password" class="cvv" id="cvv" value="">                    
                 </div>
+                <button id="btn" class="btn" type="submit" >Submit</button>
+                
             </form>
+           
+           
         </div>
+        
+          
+        
+        
+        
     </main>
-
-    <script>
-  const menuIcon = document.querySelector(".hamburger");
-const navbar = document.querySelector(".navbar");  
-
-menuIcon.addEventListener("click", () => {
-    navbar.classList.toggle("change");
-    
-});
-    </script>
+   
+    <script src="./card.js"></script>
 </body>
 </html>
