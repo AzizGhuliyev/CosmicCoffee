@@ -12,7 +12,7 @@ $(".err").css("display", "none")
 $("#fname").focus(()=>{
     $(".err1").hide()
 });
-$("#fname").blur(()=>{
+$("#fname").blur( ()=>{
     if ($("#fname").val() == "") {
         $(".err1").show()
     }
