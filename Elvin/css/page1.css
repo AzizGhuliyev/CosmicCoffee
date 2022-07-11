@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 *
 .main{
@@ -48,7 +49,7 @@
      margin-left:780px; 
     height: 840px;
      object-fit: cover; 
-    width: 786px; 
+    width: 805px; 
     position: absolute;
   
 }
