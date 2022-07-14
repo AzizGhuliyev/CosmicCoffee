@@ -9,44 +9,44 @@ menuIcon.addEventListener("click", () => {
 $(".err").css("display", "none")
 
 //! -------------- input 1 
-$("#fname").focus(()=>{
+$("#firstName").focus(()=>{
     $(".err1").hide()
 });
-$("#fname").blur( ()=>{
-    if ($("#fname").val() == "") {
+$("#firstName").blur( ()=>{
+    if ($("#firstName").val() == "") {
         $(".err1").show()
     }
 });
 
 //! -------------- input 2
 
-$("#lname").focus(()=>{
+$("#lastName").focus(()=>{
     $(".err2").hide()
 });
-$("#lname").blur(()=>{
-    if ($("#lname").val() == "") {
+$("#lastName").blur(()=>{
+    if ($("#lastName").val() == "") {
         $(".err2").show()
     }
 });
 
 //! -------------- input 3
 
-$("#aname").focus(()=>{
+$("#areaName").focus(()=>{
     $(".err3").hide()
 });
-$("#aname").blur(()=>{
-    if ($("#aname").val() == "") {
+$("#areaName").blur(()=>{
+    if ($("#areaName").val() == "") {
         $(".err3").show()
     }
 });
 
 //! -------------- input 4
 
-$("#sname").focus(()=>{
+$("#streetName").focus(()=>{
     $(".err4").hide()
 });
-$("#sname").blur(()=>{
-    if ($("#sname").val() == "") {
+$("#streetName").blur(()=>{
+    if ($("#streetName").val() == "") {
         $(".err4").show()
     }
 });
@@ -88,9 +88,11 @@ $("#cardName").blur(()=>{
 
 //! -------------- input 8
 
+
 $(".year").focus(()=>{
     $(".err8").hide()
 });
+
 $(".year").blur(()=>{
     if ($(".year").val() == "") {
         $(".err8").show()
@@ -105,5 +107,6 @@ $(".cvv").focus(()=>{
 $(".cvv").blur(()=>{
     if ($(".cvv").val() == "") {
         $(".err9").show()
-    }
+    }   
 });
+
