@@ -21,22 +21,16 @@
 .language{
     position: absolute;
     right: 100px;
-    top: 23px;
+    top: 24px;
+}
+.button {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
-}
-.button_lang{
-    cursor: pointer;
+    font-size: 21px;
+    border: none;
+    background-color: #fff;
     color: #762910;
-    padding: 0.25em 0em;
-    transition: 0.25s ease;
-    margin-left: 10px;
-}
-.button_lang:hover{
-    border-radius: 20%;
-    background-color: #762910;
-    color: #fff;
-    transition: 0.25s ease;
+    margin-right: 10px;
+    cursor: pointer;
 }
 .group {
     display: flex;
@@ -143,8 +137,3 @@
     opacity: 73%;
     object-fit: cover;
 }
-.current_lang {
-    background: #762910;
-    color: #fff;
-    border-radius: 20%;
-  }

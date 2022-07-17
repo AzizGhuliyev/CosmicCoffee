@@ -1,3 +1,3 @@
 document.getElementById("button").onclick =function(){
-    location.href ="../../Aziz/html/page2.html"
+    location.href ="../HTML/menu.html"
 }

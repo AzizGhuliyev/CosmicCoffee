@@ -1,1 +1,0 @@
-Burdan basqa yerde isleme!. Her kes adina uygun sehifedde islesin.
