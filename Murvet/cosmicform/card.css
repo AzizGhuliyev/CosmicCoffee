@@ -222,13 +222,11 @@ body{
     font-family: 'Times New Roman', Times, serif;
     color: red; 
 }
-.right>.expiry-date>.err{
-    
-    background-color: rgba(245, 76, 54, 0.21);
-    font-size: 15px;
-    flex-direction: column;
-    margin: 5px 0 0 0;
-    font-family: 'Times New Roman', Times, serif;
-    color: red; 
 
+
+.bi{
+    position: relative;
+    top: 6px;
+    right: 25px;
+   
 }
