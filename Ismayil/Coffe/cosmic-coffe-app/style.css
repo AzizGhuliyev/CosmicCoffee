@@ -198,3 +198,24 @@ hr {
     margin-top: 40px;
     width: 1400px;
 }
+@media only screen and (max-width:600px){
+    img{
+        width: 200px;
+        object-fit: cover;
+        height: 400px;
+    }
+}
+@media only screen and (max-width:992px){
+    img{
+        width: 200px;
+        object-fit: cover;
+        height: 400px;
+    }
+}
+@media only screen and (max-width:1200px){
+    img{
+        width: 200px;
+        object-fit: cover;
+        height: 400px;
+    }
+}

@@ -7,7 +7,7 @@
 body {
     background-color: #762910;
     overflow: hidden;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 .navbar {
     width: 250px;
@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: right 0.8s cubic ;
+    transition: right 0.8s cubic;
 }
 .change {
     right: 0;
@@ -90,7 +90,7 @@ body {
     margin-left: 100px;
     margin-top: 50px;
     border-radius: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 img {
@@ -127,7 +127,7 @@ img {
     user-select: none;
     border-radius: 5px;
     background-color: #f2c89e;
-    color: #8B0000;
+    color: #8b0000;
 }
 
 .photo {
@@ -135,7 +135,7 @@ img {
     margin-left: 1130px;
     margin-top: 50px;
     border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .text-two {
@@ -169,5 +169,17 @@ img {
     user-select: none;
     border-radius: 5px;
     background-color: #f2c89e;
-    color: #8B0000;
+    color: #8b0000;
+}
+@media only screen and (max-width: 992px) {
+    img {
+        object-fit: cover;
+        margin-left: 300px;
+    }
+}
+@media only screen and (max-width: 1200) {
+    img {
+        object-fit: cover;
+        margin-left: 300px;
+    }
 }
