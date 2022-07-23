@@ -183,3 +183,21 @@ img {
         margin-left: 300px;
     }
 }
+.buttom {
+    text-align: center;
+}
+.btn2 {
+    margin-left: 60px;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    margin-top: -40px;
+    background-color: #722910;
+}
+.btn1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    margin-top: -40px;
+    background-color: #722910;
+}
